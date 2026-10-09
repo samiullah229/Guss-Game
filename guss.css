@@ -1,0 +1,60 @@
+/* Removes default browser spacing */
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles the main background and centers the content */
+body {
+    text-align: center;
+    padding: 40px;
+    background-color: burlywood;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Styles the main white box holding the game */
+.container {
+    background-color: antiquewhite;
+    padding: 90px;
+    display: inline-block;
+    box-shadow: 0 0 10px blanchedalmond;
+    border-radius: 20px;
+}
+
+/* Styles the game title */
+h2 {
+    font-size: 2.4rem;
+    color: brown;
+}
+
+/* Styles the text input box */
+input {
+    padding: 10px;
+    font-size: 14px;
+    width: 80px;
+    border-radius: 10px;
+}
+
+/* Styles the "Check" button */
+button {
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 10px;
+    border: none;
+    background-color: maroon;
+    color: bisque;
+}
+
+/* Changes button color when the mouse hovers over it */
+button:hover {
+    background-color: pink;
+    color: black;
+    cursor: pointer;
+}
+
+/* Styles the result text shown at the bottom */
+p {
+    font-size: 18px;
+    font-weight: bold;
+    color: maroon;
+}

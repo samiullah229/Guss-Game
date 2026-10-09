@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <!-- Links the CSS file to style the page -->
+    <link rel="stylesheet" href="guss.css"> 
+</head>
+<body>
+    <!-- A container div to hold the game elements together -->
+    <div class="container">
+        <!-- Main heading displaying the game title with a heart symbol -->
+        <h2>Guess the Number &hearts;</h2>
+        
+        <!-- Input field where the user types their guess (restricted between 1 and 10) -->
+        <input type="number" id="guessInput" placeholder="Enter Your Number" min="1" max="10">
+        
+        <!-- Button that triggers the 'checkGuess()' JavaScript function when clicked -->
+        <button onclick="checkGuess()">Check</button>
+        
+        <!-- Empty paragraph where the result message (Too high/Too low/Correct) will appear -->
+        <p id="result"></p>
+    </div>
+     <h1>Create By Samiullah Bhatti</h1>
+    
+    <!-- Links the JavaScript file to add interactivity -->
+    <script src="./guss.js"></script>
+</body>
+</html>
